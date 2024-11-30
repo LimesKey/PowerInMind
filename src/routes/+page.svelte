@@ -34,7 +34,7 @@
 					Maintain optimal humidity levels for a healthier living environment while also saving energy for your benefit and the earths
 				</p>
 			</Card>
-			<Card class="p-6 shadow-lg rounded-lg border border-gray-200 bg-white hover:shadow-xl transition align:center .mx-auto">
+			<Card class="p-6 shadow-lg rounded-lg border border-gray-200 bg-white hover:shadow-xl transition align:center mx-auto">
 				<h3 class="text-xl font-bold text-primary-600 mb-4 ">How do we do this</h3>
 				<p class="text-gray-600">
 					Maintain optimal humidity levels for a healthier living environment while also saving energy for your benefit and the earths
