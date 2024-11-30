@@ -11,7 +11,7 @@
     <p>Click the button below:</p>
     <Row>
       <Col>
-        <Button color="primary" onClick={() => alert('Button clicked!')}>Click Me!</Button>
+        <Button color="primary" on:click={() => alert('Button clicked!')}>Click Me!</Button>
       </Col>
     </Row>
     <p>This is a sample paragraph.</p>
