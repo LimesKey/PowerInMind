@@ -1,99 +1,39 @@
 <script lang="ts">
-  import { Button, Heading, Card, Footer } from 'flowbite-svelte';
-
-  let x = 55;
+	import { Button, Heading, Card } from 'flowbite-svelte';
 </script>
-<head>
-           
-  <style>
-  ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
-overflow: hidden;
-background-color: #333;
-}
-     
-  li {
-float: left;
-}
-     
-  li a {
-display: block;
-color: white;
-text-align: center;
-padding: 16px 18px;
-text-decoration: none;
-}
-     
-  li a:hover {
-background-color: #111;
-     }
-      
-
-
-      </style>
-      </head>
-      
-     
-      <ul>
-        <li><a class="active" href="+page.svelte">Home</a></li>
-        <li><a href="Index_2.html">Our Services</a></li>
-        <li><a href="Index3.html">About Us</a></li>
-      </ul>
 
 <main class="container mx-auto p-4">
-  <Heading tag="h1" class="text-center text-4xl font-bold mb-4 text-white">PowerInMind</Heading>
-  <p class="text-center text-lg mb-6 text-white">Smart ways to sustainably keep your home at a comfortable temperature and humidity.</p>
-  <div class="text-center mb-8">
-    <Button class="Button1" href="https://gen.xyz/" color="blue">Don't click me or else...</Button>
-  </div>
+	<section class="bg-gradient-to-b from-cyan-100 to-blue-300 text-center shadow-md p-11 mb-12 rounded-xl">
+		<Heading tag="h1" class="text-4xl font-bold text-gray-800 mb-6">PowerInMind</Heading>
+		<p class="text-lg text-gray-700 leading-relaxed mb-6">
+			Charge your devices with power effiency in mind.
+		</p>
+		<Button class="text-white bg-primary-600 hover:bg-primary-700">
+            Get Started
+        </Button>
+	</section>
 
-  <section class="mt-8">
-    <Heading tag="h2" class="text-2xl font-semibold mb-4 text-white"><u class="line">Our Services</u></Heading>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-      <Card>
-        <h3 class="text-lg font-bold">Energy Efficiency</h3>
-        <p>Optimize your home's energy usage with our advanced solutions.</p>
-      </Card>
-      <Card>
-        <h3 class="text-lg font-bold">Smart Thermostats</h3>
-        <p>Control your home's climate with our state-of-the-art smart thermostats.</p>
-      </Card>
-      <Card>
-        <h3 class="text-lg font-bold">Humidity Control</h3>
-        <p>Maintain optimal humidity levels for a healthier living environment.</p>
-      </Card>
-    </div>
-  </section>
-
-  <section class="mt-8">
-    <Heading tag="h2" class="text-2xl font-semibold mb-4 text-white">About Us</Heading>
-    <p class="text-white">PowerInMind is dedicated to providing innovative solutions for home energy management. Our mission is to help you create a sustainable and comfortable living environment.</p>
-  </section>
+	<section class="services">
+		<Heading tag="h2" class="text-3xl font-semibold text-gray-800 text-center mb-8">Our Services</Heading>
+		<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+			<Card class="p-6 shadow-lg rounded-lg border border-gray-200 bg-white hover:shadow-xl transition">
+				<h3 class="text-xl font-bold text-primary-600 mb-4">Energy Efficiency</h3>
+				<p class="text-gray-600">
+					Save money, help the enviornment by charging only during low grid load.
+				</p>
+			</Card>
+			<Card class="p-6 shadow-lg rounded-lg border border-gray-200 bg-white hover:shadow-xl transition">
+				<h3 class="text-xl font-bold text-primary-600 mb-4">Smart Thermostats</h3>
+				<p class="text-gray-600">
+					Control your home's climate with our state-of-the-art smart thermostats.
+				</p>
+			</Card>
+			<Card class="p-6 shadow-lg rounded-lg border border-gray-200 bg-white hover:shadow-xl transition">
+				<h3 class="text-xl font-bold text-primary-600 mb-4">Humidity Control</h3>
+				<p class="text-gray-600">
+					Maintain optimal humidity levels for a healthier living environment while also saving energy for your benefit and the earths
+				</p>
+			</Card>
+		</div>
+	</section>
 </main>
-
-<style>
-  main {
-      width: 100%;
-      margin: 0;
-      color: black;
-      opacity: 0.95;
-      background-color:  #ADD8E6;
-  }
-  
-  p {
-      text-align: left;
-  }
-
-  .container {
-      margin: 0 auto;
-  }
-
-  .grid {
-      margin-top: 15px;
-      display: grid;
-      gap: 1rem;
-  }
-</style>
-
